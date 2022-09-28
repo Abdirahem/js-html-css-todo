@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'roboto';
+    line-height: 1.75;
+    background-color: #ccc;
+    
+}
+
+.container{
+    width: 40%;
+    background-color: #fff;
+    padding: 2rem;
+    margin: 10rem auto;
+    border-radius: 14px;
+    color: #2e2e2e;
+
+
+  
+
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #bebebe;
+}
+
+.title{
+    font-size: 2.4rem;
+}
+
+.myform{
+    display: flex;
+}
+
+.myform .form-control{
+    flex: 1;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    outline: none;
+}
+
+.myform .btn{
+    background-color: #eee;
+    font-size: 1.25rem;
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.todo{
+    /* display: flex; */
+    margin: 2rem auto;
+    align-content: center;
+    
+}
+
+.list-group{
+
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+
+
+}
+
+.list-item{
+    flex:1;
+}
+
+
+
+i{
+    align-self: center;
+}
+
+.actions{
+    color: #676060;
+}
+
+.trash,.check{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 60%;
+        background-color: #fff;
+        padding: 2rem;
+        margin: 10rem auto;
+        border-radius: 14px;
+        color: #2e2e2e;
+    }
+}
+@media only screen and (min-width:610px) and (min-width:768px) {
+    .container{
+        width: 40%;
+        background-color: #fff;
+        padding: 2rem;
+        margin: 10rem auto;
+        border-radius: 14px;
+        color: #2e2e2e;
+    }
+}

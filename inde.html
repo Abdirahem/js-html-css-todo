@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0197893414.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h2 class="title">Welcome</h2>
+        <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus quisquam cumque.</p>
+        <form action="" class="myform">
+            <input type="text" name="" id="task" class="form-control" placeholder="Todo List.." autocomplete="off">
+            <button class="btn"><i class="fa-solid fa-square-plus"></i></button>
+        </form>
+
+        <div class="todo">
+            <!-- <ul class="list-group">
+                <li class="list-item">Lorem ipsum dolor sit amet.</li>
+                <i class="fa-solid fa-trash-can trash actions"></i>
+                    <i class="fa-solid fa-square-check check actions"></i>
+            </ul> -->
+            
+        </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '.container',
+            translateY: 100,
+            duration: 3000
+          });
+    </script>
+</body>
+</html>
